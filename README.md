@@ -42,7 +42,7 @@ We will use Selenium in Python, but the logic can be adapted to Playwright, Pupp
 
 We will use the “[Oscar Winning Films: AJAX and Javascript](https://www.scrapethissite.com/pages/ajax-javascript/#2014)” scraping sandbox:
 
-![The target page. Note how pagination data is loaded dynamically](https://brightdata.com/wp-content/uploads/2025/01/Dynamic-pagniation-example-1024x501.gif)
+![The target page. Note how pagination data is loaded dynamically](https://github.com/luminati-io/complex-navigation-scraping/blob/main/Images/Dynamic-pagniation-example-1536x752.gif)
 
 This site dynamically loads Oscar-winning film data, paginated by year.
 
@@ -156,7 +156,7 @@ To illustrate JavaScript-based complex navigation scenarios involving user inter
 
 This time, the target site will be the [‘Load More’ example](https://www.scrapingcourse.com/button-click) page from the Scraping Course:
 
-![The ‘Load More’ target page in action](https://brightdata.com/wp-content/uploads/2025/01/Clicking-on-the-load-more-button-1024x501.gif)
+![The ‘Load More’ target page in action](https://github.com/luminati-io/complex-navigation-scraping/blob/main/Images/Clicking-on-the-load-more-button-1536x752.gif)
 
 To handle this complex navigation scraping pattern, follow these steps:
 
@@ -229,7 +229,7 @@ This approach is both efficient and versatile, as it eliminates the need to know
 
 Infinite scrolling is a popular interaction widely used on social media and e-commerce platforms to enhance user engagement. In this case, the target will be the same page as above but with [infinite scrolling instead of a ‘Load More’ button](https://www.scrapingcourse.com/infinite-scrolling):
 
-![infinite scrolling instead of a 'Load More' button](https://brightdata.com/wp-content/uploads/2025/01/Infinite-scrolling-example-1024x501.gif)
+![infinite scrolling instead of a 'Load More' button](https://github.com/luminati-io/complex-navigation-scraping/blob/main/Images/Infinite-scrolling-example-1024x501.gif)
 
 Most browser automation tools do not provide a direct method for scrolling down or up a page, and Selenium is not an exception. Instead, you need to execute a JavaScript script on the page to perform the scrolling operation.
 
